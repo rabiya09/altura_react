@@ -1,0 +1,95 @@
+.cart-container {
+    width: 100%;
+    margin: 0 auto;
+    float: left;
+    padding-top: 30px;
+    padding-bottom: 50px;
+     .cart-box {
+      width: 56%;
+      margin: 0 auto;
+      margin-left: 4%;
+      float: left;
+      .page-title {
+        font-weight: bold;
+        font-size: 24px;
+        color: #4a02ce;
+        padding-bottom: 20px;
+      }
+      .cart-tile {
+        float: left;
+          width: 100%;
+          outline: 1px solid #CDCDCD;
+        .img-container{
+          float: left;
+          width: 40%;
+       }
+       .details-container {
+        float: left;
+        width: 40%;
+        .product-name {  
+          line-height: 24px;
+          margin-left: 0px;      
+          float: left;
+          margin: 10px;
+          font-weight: bold;
+          color: #4a02ce;
+          width: 100%;
+        }
+        .qty-container {
+          line-height: 24px;
+          float: left;
+          width: 100%;
+        }
+        .price-container {
+          line-height: 24px;
+          float: left;
+          width: 100%;
+        }
+      } 
+      .delete-container{
+          float: left;
+          width: 20%;   
+          padding-top: 20px;
+          button {           
+            background-color: #0062A3;
+            color: #FFFFFF;
+            padding: 10px;
+            border: 1px solid #0062A3;
+            border-radius: 3px;
+        }
+      }
+      }
+       .continue-to-checkout {
+        float: left;
+        width: 100%;
+        padding-top: 20px;
+        button {           
+          background-color: #0062A3;
+          color: #FFFFFF;
+          padding: 10px;
+          border: 1px solid #0062A3;
+          border-radius: 3px;
+        }
+        }
+     } 
+     .summary-container{
+      float: left;
+      width: 37%;
+      padding-top: 60px;
+      margin-left: 3%;
+      button {           
+        background-color: #0062A3;
+        color: #FFFFFF;
+        padding: 10px;
+        border: 1px solid #0062A3;
+        border-radius: 3px;
+    }
+    .total {
+      padding-bottom: 10px;
+      span {
+        font-weight: bold;
+        margin-right: 3px;        
+      }
+    }
+  }
+  }

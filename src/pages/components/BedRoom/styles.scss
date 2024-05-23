@@ -1,0 +1,54 @@
+.bed-room-container {
+    width: 100%;
+    margin: 0 auto; 
+    padding-bottom: 100px;
+    float: left;
+    @media (max-width: 599px) {
+        padding-bottom: 10px;
+    }
+    .bed-room {
+        width: 94%;
+        margin: 0 auto;
+        margin-left: 4%;
+        float: left;
+        .bed-room-text {
+            float: left;
+            width: 30%;
+            margin-left: 5%;
+            margin-top: 175px;
+            .read-more {
+                width: 100%;
+                float: left;
+                padding-top: 10px;
+                a {
+                    color: #E41C77;
+                    text-decoration: none;
+                }
+            }
+            @media (max-width: 599px) {
+                width: 100%;
+                text-align: center;  
+                margin-top: 10px;                  
+            }
+        }
+        .bed-room-title {
+            font-weight: bold;
+            float: left;
+            font-size: 18px;
+            width: 100%;
+           padding-bottom: 10px;
+        }
+        .bed-room-image {
+            float: left;
+            width: 58%;
+            @media (max-width: 599px) {
+                width: 100%;
+            }
+            img {
+                @media (max-width: 599px) {
+                    width: 356px;                     
+                }
+            }
+        }
+    }
+}

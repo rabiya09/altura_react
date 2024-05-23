@@ -1,0 +1,119 @@
+[
+    {
+        "id": 1,
+        "name": "Chair1",
+        "category":"Chair",
+        "description": "Chair1 description",
+        "price": "170.00",
+        "imageUrl": "images/image 13.svg",
+        "quantity": 2
+    },
+    {
+        "id": 2,
+        "name": "Bed1",
+        "category":"Bed",
+        "description": "Bed1 description",
+        "price": "1000.00",
+        "imageUrl": "images/image 4.svg",
+        "quantity": 3
+    },
+    {
+        "id": 3,
+        "name": "Chair2",
+        "category":"Chair",
+        "description": "Chair2 description",
+        "price": "302.00",
+        "imageUrl": "images/image 2.svg",
+        "quantity": 7
+    },
+    {
+        "id": 4,
+        "name": "Chair3",
+        "category":"Chair",
+        "description": "Chair3 description",
+        "price": "279.00",
+        "imageUrl": "images/image 3.svg",
+        "quantity": 3
+    },
+    {
+        "id": 5,
+        "name": "Chair4",
+        "category":"Chair",
+        "description": "Chair4 description",
+        "price": "279.00",
+        "imageUrl": "images/image 4.svg",
+        "quantity": 5
+    },
+    {
+        "id": 6,
+        "name": "Bed1",
+        "category":"Bed",
+        "description": "Bed1 description",
+        "price": "1000.00",
+        "imageUrl": "images/image 4.svg",
+        "quantity": 3
+    },
+    {
+        "id": 7,
+        "name": "Bed2",
+        "category":"Bed",
+        "description": "Bed2 description",
+        "price": "1500.00",
+        "imageUrl": "images/image 4.svg",
+        "quantity": 3
+    },
+    {
+        "id": 8,
+        "name": "Sofa1",
+        "category":"Sofa",
+        "description": "Sofa1 description",
+        "price": "6500.00",
+        "imageUrl": "images/image 4.svg",
+        "quantity": 3
+    },
+    {
+        "id": 9,
+        "name": "Table1",
+        "category":"Table",
+        "description": "Table1 description",
+        "price": "7500.00",
+        "imageUrl": "images/image 4.svg",
+        "quantity": 3
+    },
+    {
+        "id": 10,
+        "name": "Table2",
+        "category":"Table",
+        "description": "Table2 description",
+        "price": "7000.00",
+        "imageUrl": "images/image 4.svg",
+        "quantity": 3
+    },
+    {
+        "id": 11,
+        "name": "Sofa2",
+        "category":"Sofa",
+        "description": "Sofa2 description",
+        "price": "7500.00",
+        "imageUrl": "images/image 4.svg",
+        "quantity": 3
+    },
+    {
+        "id": 12,
+        "name": "Cot1",
+        "category":"Cot",
+        "description": "Cot1 description",
+        "price": "7500.00",
+        "imageUrl": "images/image 4.svg",
+        "quantity": 3
+    },
+    {
+        "id": 13,
+        "name": "Cot2",
+        "category":"Cot",
+        "description": "Cot2 description",
+        "price": "7500.00",
+        "imageUrl": "images/image 4.svg",
+        "quantity": 3
+    }
+]

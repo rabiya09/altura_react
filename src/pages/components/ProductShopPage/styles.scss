@@ -1,0 +1,28 @@
+.product-detail-container {
+    width: 100%;
+    margin: 0 auto;
+    .product-details {
+        width: 94%;
+        margin: 0 auto;
+        margin-left: 4%;
+        float: left;
+        padding-top: 20px;
+        padding-bottom: 50px;
+        .product-details-name {
+            font-weight: bold;
+            padding-top: 10px;
+        }
+        .product-details-price {
+            color: #E41C77;
+            line-height: 34px;
+        }
+        button {           
+            background-color: #0062A3;
+            color: #FFFFFF;
+            padding: 10px;
+            border: 1px solid #0062A3;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+    }
+}

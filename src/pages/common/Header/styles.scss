@@ -1,0 +1,159 @@
+.header-bar-container {
+    width: 100%;
+    margin: 0 auto;
+    .mobile-view {
+        display: none;
+    }
+    .mobiledropdown {
+        float: right;
+        margin-right: 24%;
+    }
+    @media (max-width: 599px) {
+        .mobile-view {
+            display: block;
+        }
+        .header-menu-ul {
+            display: none;
+        }
+        .search-container {
+            display: none; 
+        }
+        .icon-container {
+            display: none;  
+        }
+    }
+    .header-bar {
+        width: 94%;
+        margin: 0 auto;
+        margin-left: 4%;
+        float: left;
+        .header-logo-container {
+            width: 40%;
+            float: left;
+            .header-logo-image {
+                margin-top: 8px;
+                float: left;
+                cursor: pointer;
+            }
+            .header-logo-text {
+                color: #0060A7;
+                font-size: 24px;
+                float: left;
+                margin-top: 14px;
+                margin-left: 5px;
+                cursor: pointer;
+                a{
+                    text-decoration: none;
+                }
+                img {
+                    margin-top: 5px;
+                    vertical-align: bottom;
+                    margin-right: 5px;
+                }
+            }
+        }
+        .header-menu-container {
+            width: 60%;
+            float: left;
+            .hamburger-menu {
+                .hamburger {
+                    width: 35px;
+                    height: 5px;
+                    background-color: #0062A3;
+                    margin: 6px 0;
+                }
+            }
+            .header-menu-ul{
+                float: left;
+                width: 44%;
+                @media (max-width: 599px) {
+                    width: 100%;
+                }
+                .register-li {
+                    margin-right: 10%;   
+                    @media (max-width: 599px) {
+                        margin-right: 2%;   
+                    } 
+                    a {
+                        cursor: pointer;
+                    }                
+                }
+                .product-details-li {
+                    a {
+                        cursor: pointer; 
+                    }
+                }
+                li {
+                    list-style: none;
+                    float: left;
+                    outline: 1px solid #DDD;
+                    padding: 5px;
+                    a {
+                        text-decoration: none;
+                    }
+                }
+            }
+            .search-container {
+                float: left;
+                width: 35%;
+                margin-top: 2%;
+                @media (max-width: 599px) {
+                    width: 100%;
+                }
+                input {
+                   width: 100%;
+                   @media (max-width: 599px) {
+                    width: 97%;
+                }
+                }
+            }
+            .icon-container {
+                float: left;
+                width: 15%;
+                @media (max-width: 599px) {
+                    width: 100%;
+                }
+                ul {
+                    float: left;
+                    margin-top: 3%;
+                    width: 100%;
+                    
+                    li {
+                        float: left;
+                        list-style: none;
+                        width: 50%;
+                    }
+                   
+                    
+                }
+            }
+        }
+    }
+
+  .dropbtn {
+     color: white;
+     font-size: 16px;
+     border: none;
+     background-color: transparent;
+   }
+   .dropdown {
+     position: relative;
+     display: inline-block;
+   }
+   .dropdown-content {
+     display: none;
+     position: absolute;
+     background-color: #f1f1f1;
+     min-width: 100px;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+     z-index: 1;
+   }  
+   .dropdown-content a {
+     color: black;
+     padding: 12px 16px;
+     text-decoration: none;
+     display: block;
+   }   
+   .dropdown-content a:hover {background-color: #ddd;}
+   .dropdown:hover .dropdown-content {display: block;}
+}

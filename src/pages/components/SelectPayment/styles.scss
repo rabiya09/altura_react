@@ -1,0 +1,96 @@
+.payment-form-container {
+    width: 100%;
+    margin: 0 auto;
+    .payment-form {
+        width: 94%;
+        margin: 0 auto;
+        margin-left: 4%;
+        float: left;
+        padding-top: 20px;
+        padding-bottom: 50px;
+        button {           
+            background-color: #0062A3;
+            color: #FFFFFF;
+            padding: 10px;
+            border: 1px solid #0062A3;
+            border-radius: 3px;
+        }
+        .btn-primary {
+            margin-right:20px;
+        }
+        .invalid-feedback {
+            font-size: 14px;
+            color: rgb(243, 8, 8);
+            margin-top: 3px;
+        }
+    }
+    .section-title {
+        width: 100%;
+        float: left;
+        padding-bottom: 16px;
+        font-weight: bold;
+    }
+    .form-row {
+        width: 100%;
+        float: left;
+        padding-top: 20px;
+    }
+    .form-group {
+        width: 33%;
+        float: left;
+        label {
+            width: 70%;
+            float: left;
+            
+        }
+        input {
+            width: 70%;
+            padding: 2%;
+        }
+        .cc-block{ 
+            float: left;
+            width: 100%;            
+            label {
+                input {
+                    width: 7%;
+                }
+            }
+        }
+        .upi-block {
+            float: left;
+            width: 100%;
+            clear: left;
+            label {
+                input {
+                    width: 7%;
+                }
+            }
+        }
+        .paymentmethod-feedback {
+            float: left;
+            clear: left;
+        }
+        .mandatory-validation {
+            font-size: 14px;
+            color: rgb(243, 8, 8);
+            margin-top: 10px;
+            float: left;
+            width: 100%;
+        }
+        .cc-no-selector {
+            margin-bottom: 10px;
+        }
+    }
+}
+.hr-line {
+    padding-bottom: 30px;
+    padding-top: 40px;
+    width: 100%;
+    margin: 0 auto;
+    float: left;
+    hr {
+        width: 94%;
+        margin: 0 auto;
+        float: left;        
+    }    
+}

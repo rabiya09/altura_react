@@ -1,0 +1,27 @@
+.form {
+  .form-wrapper {
+    
+    .input:required {
+      border-left: 1px solid #888;
+    }
+    
+    .input:focus {
+      outline: 1px solid #888;
+    }
+    
+    .validationMessage {
+      font-size: 0.8em;
+      color: red;
+      margin-top: 0.5em;
+    }
+  }
+  }
+  
+  .submitted input:invalid {
+    border-color: red;
+  }
+  
+  .submitted input:invalid:focus {
+    outline-color: red;
+  }
+  

@@ -1,0 +1,67 @@
+.nav-bar-container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #0062A3;
+    float: left;
+    height: 96px;
+    .nav-bar {
+        width: 94%;
+        margin: 0 auto;
+        margin-left: 4%;
+        float: left;
+        ul {
+            li {
+                list-style: none;
+                float: left;
+            }
+            .new-in-li {
+                padding-top: 42px;
+                width: 20%;
+                span {
+                    color: #fff;
+                    a {
+                        color: #fff;
+                        text-decoration: none;
+                    }
+                }
+                .new-in-li-image {
+                    cursor: pointer;  
+                }
+            }
+            .chair-li {
+                width: 20%;
+                .chair-li-image {    
+                    cursor: pointer;               
+                }
+
+            }
+            .table-li {
+                width: 20%;
+                .table-li-image {
+                    float: left;
+                    width: 100%;
+                    cursor: pointer;  
+                }
+                .table-li-text {
+                    float: left;
+                    margin-top: 5px;
+                    color: #FFFFFF;
+                    cursor: pointer;  
+                    a {
+                        text-decoration: none;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+            .sofa-li {
+                width: 20%;
+                .sofa-li-image {
+                    cursor: pointer;   
+                }
+            }
+            .lighting-li-image{
+                cursor: pointer; 
+            }
+        }
+    }
+}

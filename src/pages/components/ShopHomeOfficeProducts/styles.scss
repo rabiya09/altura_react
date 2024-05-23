@@ -1,0 +1,50 @@
+.new-in-container {
+  width: 100%;
+  margin: 0 auto;
+  .new-in {
+      width: 94%;
+      margin: 0 auto;
+      margin-left: 4%;
+      float: left;
+      padding-top: 20px;
+      padding-bottom: 10px;
+  }
+  .product-box-card-container {
+      width: 94%;
+      margin: 0 auto;
+      margin-left: 4%;
+      float: left;
+      .product-box-card {
+          margin-left: 4%;
+          float: left;
+          .productcard-img {
+
+          }
+          .product-name {
+              text-align: center;
+              line-height: 34px;
+              a {
+                  text-decoration: none;
+              }
+          }
+          .product-price {
+              color: #E41C77;
+              text-align: center;
+              line-height: 34px;
+          }
+      }
+  }
+}
+.hr-line {
+  padding-bottom: 50px;
+  padding-top: 50px;
+  width: 100%;
+  margin: 0 auto;
+  float: left;
+  hr {
+      width: 94%;
+      margin: 0 auto;
+      margin-left: 4%;
+      float: left;        
+  }
+}

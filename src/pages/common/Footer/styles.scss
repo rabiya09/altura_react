@@ -1,0 +1,96 @@
+.footer-box {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #0062A3;
+    color: #FFFFFF;
+    min-height: 230px;
+    padding-top: 40px;   
+    float: left;      
+    .footer-logo-box {
+        width: 15%;
+        float: left;
+        margin-left: 5%;
+        border-right: 1px solid #FFF;
+        height: 200px;
+        @media (max-width: 599px) {
+            width: 91%;
+            height: 50px;
+        }
+        .footer-logo {
+            padding-top: 40%;
+            @media (max-width: 599px) {
+                padding-top: 0%;
+            }
+            img {
+                float: left;
+                margin-top: -5%;
+                margin-right: 4%;
+            }
+        .footer-logo-text {
+            float: left;
+        }            
+        }    
+    }
+    .footer-links {
+        ul {
+            li {
+                @media (max-width: 599px) {
+                    line-height: 22px;
+                }
+            }
+        }
+    }
+    .footer-link-first {
+        width: 25%;
+        margin-left: 5%;
+        @media (max-width: 599px) {
+            margin-left: 0%;
+            width: 41%;
+        }
+        float: left;
+        ul {
+            li {
+                list-style: none;
+                line-height: 35px;
+                a {
+                    text-decoration: none;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+    .footer-link-second {
+        width: 25%;
+        float: left;
+        @media (max-width: 599px) {            
+            width: 24%;
+        }
+        ul {
+            li {
+                list-style: none;
+                line-height: 35px;
+                a {
+                    text-decoration: none;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+    .footer-link-third {
+        width: 24%;
+        float: left;
+        @media (max-width: 599px) {
+            width: 35%;
+        }
+        ul {
+            li {
+                list-style: none;
+                line-height: 35px;
+                a {
+                    text-decoration: none;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+}

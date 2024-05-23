@@ -1,0 +1,22 @@
+.wrapper {
+    input {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        height: 30px;  
+        border: 1px solid #CDCDCD;
+        @media (max-width: 599px) {
+            height: 30px;  
+        }
+    }    
+    input:focus{
+        border:none;
+    }
+    input.error {
+        border-color: red!important;  
+    }
+    #file-upload {
+        border: none !important;
+    }
+  }
+  

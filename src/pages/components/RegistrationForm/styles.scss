@@ -1,0 +1,127 @@
+.registration-form {
+    width: 100%;
+    margin: 0 auto;
+    float: left;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    .success-message {
+        
+    }
+.registration-form-box {
+    width: 94%;
+    margin: 0 auto;
+    margin-left: 4%;
+    float: left;
+    .form-row {
+        width: 100%;
+        float: left;
+    }
+    .address-row {
+        .address-group {
+            width: 51%;
+            float: left;
+            margin-right: 11%; 
+            margin-top: 30px; 
+        }
+        .radio-group {
+            input {
+                width: 6%;
+                float: left;
+            }
+            label {
+                width: 25%;
+                margin-top: 6px;
+                margin-left: 5px;
+                float: left;
+            }
+        }
+    }
+    .form-group {
+        width: 20%;
+        float: left;
+        margin-right: 11%; 
+        margin-top: 30px;
+        @media (max-width: 599px) {
+            width: 87%;
+            margin-left: 2%;
+        }
+    }
+    .form-group fieldset {
+        height: 38px;
+    }
+    .form-group input {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        height: 30px;  
+        border: 1px solid #CDCDCD;
+        @media (max-width: 599px) {
+            height: 30px;  
+        }
+    }
+    .form-group {
+        .file-upload {
+            border: none; 
+        }
+    }
+    .form-group input:focus{
+        border:none;
+    }
+    hr {
+        float: left;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .fullWidth {
+        width: 51%;
+        float: left;
+        margin-right: 11%; 
+        margin-top: 30px; 
+    }
+    .formRadio label{
+        width: 30%;
+        float: left;
+    }
+    .formRadio label span{
+        width: 55%;
+        float: left;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+    .formRadio input{
+        float: left;
+        width: 20%;
+    }
+    .btn-submit {
+        background-color: #E41C77;
+        border: 2px solid #E41C77;
+        color: #fff;
+        padding: 8px;        
+        font-size: 18px;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+    .btn-reset {
+        background-color: #ffffff;
+        border: 2px solid #CDCDCD;
+        color: #000000;
+        padding: 8px;
+        margin-right: 10px;
+        font-size: 18px;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+    .invalid-feedback {
+        font-size: 14px;
+        color: rgb(243, 8, 8);
+        margin-top: 3px;
+    }
+    .gender-error {
+        float: left;
+        width: 100%;
+    }
+    #fileupload {
+        border: none !important;
+    }
+}
+}

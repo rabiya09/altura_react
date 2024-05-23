@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BedRoom should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="bed-room-container"
+  >
+    <div
+      class="bed-room"
+    >
+      <div
+        class="bed-room-image"
+      >
+        <img
+          alt="Bed Room"
+          src="bedroom.svg"
+        />
+      </div>
+      <div
+        class="bed-room-text"
+      >
+        <span
+          class="bed-room-title"
+          data-testid="page-title"
+        >
+          Bed Room
+        </span>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <span
+          class="read-more"
+        >
+          <a
+            href="/shop-all-bed-room"
+          >
+            Shop All
+          </a>
+        </span>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
